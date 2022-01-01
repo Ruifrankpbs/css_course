@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bordas CSS</title>
+    <style>
+      .verbosa {
+        width: 300px;
+        height: 300px;
+        background: blue;
+
+        /* Borda Verbosa*/
+
+        border-width: 5px;
+        border-style: solid;
+        border-color: red;
+      }
+      .simples {
+        width: 300px;
+        height: 300px;
+        background: blue;
+
+        /* Borda simples*/
+
+        border: 5px solid#000;
+      }
+      .redondas {
+        width: 300px;
+        height: 300px;
+        background: blue;
+
+        /* Borda arredonda verboso*/
+        border: 5px solid#000;
+
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      .redondasimples {
+        width: 300px;
+        height: 300px;
+        background: blue;
+
+        /* Borda arredonda verboso*/
+        border: 5px solid#000;
+
+        border-radius: 50px 10px 10px 10px;
+      }
+      .circulo {
+        width: 300px;
+        height: 300px;
+        background: blue;
+
+        /* Borda arredonda verboso*/
+        border: 10px solid#000;
+
+        border-radius: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="verbosa">
+      <h2>Jeito mais verboso de criar bordas no css</h2>
+    </div>
+    <br /><br />
+    <div class="simples">
+      <h2>jeito mais simples de criar bordas no css</h2>
+    </div>
+    <br /><br />
+    <div class="redondas">
+      <h2>jeito verboso de criar bordas arredondadas no css</h2>
+    </div>
+    <br /><br />
+    <div class="redondasimples">
+      <h2>jeito simples de criar bordas arredondadas no css</h2>
+    </div>
+    <br /><br />
+    <div class="circulo">
+      <h2>como fazer um circulo no css</h2>
+    </div>
+  </body>
+</html>
