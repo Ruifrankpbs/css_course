@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sombra CSS</title>
+    <style>
+      .solida {
+        width: 300px;
+        background: green;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 10px 10px 0;
+      }
+      .transparente {
+        width: 300px;
+        background: green;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        /* A primeria cpmfiguração é o deslocamento a esquerda e direita, para a esquerda usa valores negativos*/
+        /* A segunda cpmfiguração é o deslocamento vertical*/
+        /* A terceira cpmfiguração é o desfoque*/
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="solida">
+      <h1>Sombra sólida</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore
+      deserunt est quia nostrum distinctio similique illo minima. Architecto
+      debitis a, temporibus repudiandae qui tempore dolor dicta nobis eius
+      provident!
+    </div>
+    <div class="transparente">
+      <h1>Sombra transparente</h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore
+      deserunt est quia nostrum distinctio similique illo minima. Architecto
+      debitis a, temporibus repudiandae qui tempore dolor dicta nobis eius
+      provident!
+    </div>
+  </body>
+</html>
