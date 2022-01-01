@@ -1,0 +1,35 @@
+body {
+  background: rgb(206, 204, 204);
+}
+div {
+  position: absolute;
+
+  background: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  bottom: auto;
+  right: auto;
+  border-radius: 10px;
+}
+.button {
+  background: blue;
+  color: white;
+  padding: 6px 15px;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: 6px;
+  outline: none;
+  border: blue;
+}
+.button:hover {
+  background: rgb(25, 189, 47);
+  color: white;
+  padding: 6px 15px;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: 6px;
+  outline: none;
+  border: rgb(25, 189, 47);
+}
